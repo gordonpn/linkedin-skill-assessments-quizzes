@@ -1,0 +1,100 @@
+repo_name: gordonpn/linkedin-skill-assessments-quizzes
+report_id: 7a33b3a275f385c333ca4781b8294e94
+repo_type: Public
+timestamp: '2023-11-09T13:11:29+00:00'
+requested_by: gordonpn
+provider: github
+branch: master
+detected_tools_count: 8
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: package.json
+  last_updated_by: Marco Biedermann
+  last_updated_on: 2020-11-10 08:18:21.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/greetings.yml"
+  last_updated_by: Evgeny Bazhanov
+  last_updated_on: 2020-11-15 09:17:19.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Marco Biedermann
+  last_updated_on: 2020-11-10 08:18:21.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Evgeny Bazhanov
+  last_updated_on: 2020-07-20 18:51:29.000000000 Z
+- name: PonyDebugger
+  description: Remote network and data debugging for your native iOS app using Chrome
+    Developer Tools
+  website_url: https://github.com/square/PonyDebugger
+  open_source: true
+  hosted_saas: false
+  category: Mobile
+  sub_category: Mobile Runtime Inspector
+  image_url: https://img.stackshare.io/service/729/Logo.png
+  detection_source: package.json
+  last_updated_by: Evgeny Bazhanov
+  last_updated_on: 2020-07-20 18:51:29.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: package.json
+  last_updated_by: ebazhanov
+  last_updated_on: 2021-09-23 06:14:29.000000000 Z
+- name: pretty-quick
+  description: Get Pretty Quick
+  package_url: https://www.npmjs.com/pretty-quick
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16281/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: package.json
+  detection_source: package.json
+  last_updated_by: Evgeny Bazhanov
+  last_updated_on: 2021-02-03 12:13:41.000000000 Z
